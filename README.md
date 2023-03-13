@@ -1,1 +1,1 @@
-myPortfoli made with simple html, css and javaScript. 
+myPortfolio made with simple html, css and javaScript. 
