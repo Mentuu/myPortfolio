@@ -219,7 +219,8 @@ li button{
 
 #skillscontainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
     gap: 10%;
 }
 
@@ -332,6 +333,29 @@ footer p, footer h1{
     color: white;
 }
 
+@media screen and ( max-width: 1600px){
+    #skillscontainer{
+        gap: 5%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 3rem;
+    }
+    .skill{
+        margin-bottom: 3rem;
+    }
+
+    #aboutMe{
+        height: 800px;
+    }
+}
+    
+@media screen and ( max-width: 1200px){
+    #skillscontainer{
+        gap: 0%;
+    }
+    #projectsContainer{
+        grid-template-columns: 1fr;
+    }
+}
 
 
 
